@@ -16,4 +16,7 @@
 		<div class="content">
 		</div>
 	</body>
+	<footer>
+		<b>TRICAMI.Copyright(c) 2015</b>
+	</footer>
 </html
