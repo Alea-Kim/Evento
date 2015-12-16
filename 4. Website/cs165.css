@@ -1,0 +1,59 @@
+body{
+	background-color: #c6c6c6;
+	background-image: url('bgi.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav{
+	background-color: black;
+	position:fixed;
+	color: white;
+	width:100%;
+	height: 70px;
+	top:0;
+	left:0;
+	text-align: center;
+	font-size: 32px;
+}
+
+a{
+	color: inherit;
+	padding: 5px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.links{
+	margin: 5px;
+	padding: 8px 15px 5px 15px;
+	height: 47px;
+}
+
+.links:hover{
+	background-color: lightgray;
+	border-radius: 5px;
+	color: black;
+}
+
+.search {
+	display: inline-flex;
+	flex-direction: row;
+	float: right;
+	padding: 15px;
+}
+
+#logo {
+	float: left;
+	top:0;
+}
+
+.content {
+	background-color: white;
+	margin-top: 70px;
+	width:100%;
+}
