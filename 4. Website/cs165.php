@@ -51,69 +51,90 @@
 				<a href=""><img src="search.png" width="30px" height="30px"/></a>
 			</div>
 		</nav>
-		<div class="banner" id="jssor_1">
-        <div data-u="loading" style="position: absolute;">
-            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; width: 100%; height: 100%;"></div>
-            <div style="display:block;background:url('img/loading.gif') no-repeat center center;width:100%;height:100%;"></div>
-        </div>
-        <div data-u="slides" style="cursor: default; left: 20%; width: 300px; height: 450px; overflow: hidden;">
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" width="150px" height="480px" src="image1.jpg" />
-                <div data-u="thumb">
-                    <img class="i" src="image1.jpg" />
-                    <div class="t">Banner Rotator</div>
-                    <div class="c">360+ touch swipe slideshow effects</div>
-                </div>
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" width="150px" height="480px" src="image2.jpg" />
-                <div data-u="thumb">
-                    <img class="i" src="image2.jpg" />
-                    <div class="t">Image Gallery</div>
-                    <div class="c">Image gallery with thumbnail navigation</div>
-                </div>
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" width="150px" height="480px" src="image1.jpg" />
-                <div data-u="thumb">
-                    <img class="i" src="image1.jpg" />
-                    <div class="t">Carousel</div>
-                    <div class="c">Touch swipe, mobile device optimized</div>
-                </div>
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" width="150px" height="480px" src="image2.jpg" />
-                <div data-u="thumb">
-                    <img class="i" src="image2.jpg" />
-                    <div class="t">Themes</div>
-                    <div class="c">30+ professional themems + growing</div>
-                </div>
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" width="150px" height="480px" src="image1.jpg" />
-                <div data-u="thumb">
-                    <img class="i" src="image1.jpg" />
-                    <div class="t">Tab Slider</div>
-                    <div class="c">Tab slider with auto play options</div>
-                </div>
-            </div>
-        </div>
-        <div data-u="thumbnavigator" class="jssort11" data-autocenter="2">
-            <div data-u="slides" style="cursor: default;">
-                <div data-u="prototype" class="p">
-                    <div data-u="thumbnailtemplate" class="tp"></div>
-                </div>
-            </div>
-        </div>
-        <span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
-        <span data-u="arrowright" class="jssora02r" style="top:0px;right:218px;width:55px;height:55px;" data-autocenter="2"></span>
-        <a href="http://www.jssor.com" style="display:none">Bootstrap Carousel</a>
-    </div>
+		<div class="banner">
+			<div class="jssor" id="jssor_1">
+        	<div data-u="loading" style="position: absolute;">
+	            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; width: 100%; height: 100%;"></div>
+	            <div style="display:block;background:url('img/loading.gif') no-repeat center center;width:100%;height:100%;"></div>
+	        </div>
+	        <div data-u="slides" style="cursor: default; left: 20%; width: 300px; height: 480px; overflow: hidden;">
+	            <div data-p="112.50" style="display: none;">
+	                <img data-u="image" width="150px" height="480px" src="image1.jpg" />
+	                <div data-u="thumb">
+	                    <img class="i" src="image1.jpg" />
+	                    <div class="t">Banner Rotator</div>
+	                    <div class="c">360+ touch swipe slideshow effects</div>
+	                </div>
+	            </div>
+	            <div data-p="112.50" style="display: none;">
+	                <img data-u="image" width="150px" height="480px" src="image2.jpg" />
+	                <div data-u="thumb">
+	                    <img class="i" src="image2.jpg" />
+	                    <div class="t">Image Gallery</div>
+	                    <div class="c">Image gallery with thumbnail navigation</div>
+	                </div>
+	            </div>
+	            <div data-p="112.50" style="display: none;">
+	                <img data-u="image" width="150px" height="480px" src="image1.jpg" />
+	                <div data-u="thumb">
+	                    <img class="i" src="image1.jpg" />
+	                    <div class="t">Carousel</div>
+	                    <div class="c">Touch swipe, mobile device optimized</div>
+	                </div>
+	            </div>
+	            <div data-p="112.50" style="display: none;">
+	                <img data-u="image" width="150px" height="480px" src="image2.jpg" />
+	                <div data-u="thumb">
+	                    <img class="i" src="image2.jpg" />
+	                    <div class="t">Themes</div>
+	                    <div class="c">30+ professional themems + growing</div>
+	                </div>
+	            </div>
+	            <div data-p="112.50" style="display: none;">
+	                <img data-u="image" width="150px" height="480px" src="image1.jpg" />
+	                <div data-u="thumb">
+	                    <img class="i" src="image1.jpg" />
+	                    <div class="t">Tab Slider</div>
+	                    <div class="c">Tab slider with auto play options</div>
+	                </div>
+	            </div>
+	        </div>
+	        <div data-u="thumbnavigator" class="jssort11" data-autocenter="2">
+	            <div data-u="slides" style="cursor: default;">
+	                <div data-u="prototype" class="p">
+	                    <div data-u="thumbnailtemplate" class="tp"></div>
+	                </div>
+	            </div>
+	        </div>
+	        <span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;" data-autocenter="2"></span>
+	        <span data-u="arrowright" class="jssora02r" style="top:0px;right:218px;" data-autocenter="2"></span>
+	    </div>
+		</div>
     <script>
         jssor_1_slider_init();
     </script>
 	</body>
 	<footer>
+		<div class="about">
+			<div class="about-tricami">
+					<h3>About TRICAMI</h3>
+					<p>TRICAMI is a sprouting developer team composed of three(3) students from the University of the Philippines-Diliman.</p>
+					<h3>TRICAMI Founders</h3>
+					<ul>
+						<li>Patricia Ann Caparoso</li>
+						<li>Camille Grace Bacister</li>
+						<li>Mikaela Jun Lenon</li>
+					</ul>
+			</div>
+			<div class="about-event">
+				<h3>About Event-O</h3>
+				<p>Event-O is an unofficial event sharing website of the University of the Philippines-Diliman.</p>
+				<p>Organizations can manage and post their events page here. On the other hand, guests can look for certain events and choose to attend it.
+				It makes event organization a lot more easier and less hassle for the event handlers.</p>
+				<h3>Contact Us</h3>
+				<p>If you have any concerns, feel free to email us at tricami@gmail.com</p>
+			</div>
+		</div>
 		<b>TRICAMI.Copyright(c) 2015</b>
 	</footer>
 </html
