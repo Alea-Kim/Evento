@@ -1,6 +1,8 @@
 
-CREATE ACCOUNT on click
-INSERT 
+CREATE ACCOUNT REGULAR ACCOUNT on click
+INSERT INTO RegularAccounts(UserName, LastName, FirstName, MiddleName, Email, Password, Phone)
+VALUES (<Username>, <Lastname>, <Firstname>, <Middlename>, <Email>, <Password>, <Phone>);
+
 
 ACCOUNT ACTIVATION 
 SELECT * FROM RegularAccounts and Organizations WHERE Activated = 1
@@ -18,8 +20,9 @@ LOG-IN AS ORG ACCOUNT button on click
 SELECT * FROM Organizations WHERE username = <username> AND password = md5(<password>);
 
 CREATE EVENTS
-INSERT Events(EventTitle, OrgID, Description, Venue, Eventtime, Eventdate) VALUES
-(<Title>, <pass OrgID>, <Venue>, <EventTime>, <Eventdate>)
+INSERT Events(EventName, OrgID, Description, Venue, Eventtime, Eventdate) VALUES
+(<Name>, <pass OrgID>, <Description>, <Venue>, <EventTime>, <Eventdate>);
+
 
 MODIFY EVENTS
 SELECT * FROM Events where EventTitle = <EventTitle>;
