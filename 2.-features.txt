@@ -36,6 +36,8 @@ SELECT * FROM Events WHERE EventTitle = <EventTitle>;
 
 LIST OF ATTENDEES
 SELECT count(*) FROM GoingStats WHERE EventId = <EventID>;
+SELECT concat(FirstName, LastName) AS FullName FROM GoingStats WHERE EventId = <EventID>;
+SELECT Phone, Email FROM GoingStats WHERE EventId = <EventID> AND FullName = <FullName>;
 
 
 # UPDATE Events SET EventTitle = 'something' WHERE EventID = 'something';
