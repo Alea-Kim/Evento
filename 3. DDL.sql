@@ -40,6 +40,7 @@ CREATE TABLE eventsharing.Events
 (EventID INT NOT NULL AUTO_INCREMENT,
 EventName VARCHAR(50) NOT NULL,
 OrgID INT NOT NULL,
+Tag VARCHAR(20) NULL,
 Description LONGTEXT NULL,
 Picture LONGBLOB NULL,
 Venue VARCHAR(150) NULL,
@@ -79,8 +80,11 @@ CONSTRAINT fk_subscriptions_org
   REFERENCES eventsharing.Organizations(OrgID)
 ) ENGINE = InnoDB DEFAULT CHARSET = latin1;
 
--- Values --
 
+-- Indexing 
+CREATE INDEX eventname_index  ON eventsharing.Events(EventName)
+
+-- Values --
 -- Regular Accounts
 INSERT INTO RegularAccounts(UserName, LastName, FirstName, MiddleName, Email, Password, Phone) VALUES
 ('cams', 'Bacister', 'Camille Grace', 'M', 'bcamillegrace@gmail.com', 'a1b2c3d4e5', '09227150692');

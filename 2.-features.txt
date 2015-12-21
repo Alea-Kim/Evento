@@ -10,6 +10,10 @@ SELECT * FROM RegularAccounts and Organizations WHERE Activated = 1
 SEARCH EVENTS on click
 SELECT * FROM Events WHERE EventTitle = <EventTitle>;
 
+SEARCH EVENTS on click via tags
+SELECT * FROM Events WHERE tag = <EventTag>;
+
+
 VIEW EVENTS on click
 SELECT * FROM Events where EventTitle = <EventTitle>;
 
